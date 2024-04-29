@@ -17,10 +17,6 @@ public class App {
         System.out.println("Год публикации: " + book2.getPublicationYear());
 
         book1.setPublicationYear(1996);
-
-        System.out.println("\nИнформация о книге 1 после изменения года публикации:");
-        System.out.println("Название: " + book1.getTitle());
-        System.out.println("Автор: " + book1.getAuthor().getFirstName() + " " + book1.getAuthor().getLastName());
-        System.out.println("Год публикации: " + book1.getPublicationYear());
+        System.out.println("\nОбновлённый год публикации первой книги \"" + book1.getTitle() + "\": " + book1.getPublicationYear());
     }
 }

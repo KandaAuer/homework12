@@ -10,36 +10,18 @@ class Book {
     }
 
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     public Author getAuthor() {
-        return author;
+        return this.author;
     }
 
     public int getPublicationYear() {
-        return publicationYear;
+        return this.publicationYear;
     }
 
     public void setPublicationYear(int publicationYear) {
         this.publicationYear = publicationYear;
-    }
-}
-
-class Author {
-    private String firstName;
-    private String lastName;
-
-    public Author(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
     }
 }
